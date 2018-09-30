@@ -171,12 +171,15 @@
     }
 
     $(document).ready(function(){
+      var ps = new PerfectScrollbar('.generatedText');
         $('.generateIpsumButton').on('click', function(e) {
-            var ps = new PerfectScrollbar('.generatedText');
-            var paragraphCount = $('#sel2').val();
-            var type = $('#sel1').find(':selected').attr('data-type');
-            $('.generatedText').text(generateIpsumText(type, paragraphCount));
-            $('.generatedTextRow').fadeIn('fast');
+            $('.generatedTextRow').fadeOut(function(){
+              var paragraphCount = $('#sel2').val();
+              var type = $('#sel1').find(':selected').attr('data-type');
+              $('.generatedText').text(generateIpsumText(type, paragraphCount));
+              $(this).fadeIn();
+            });
+            
         });
     });
 
