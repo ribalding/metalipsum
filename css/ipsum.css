@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'OldeEnglish';
+  src: url('../fonts/OldeEnglish.ttf');
+}
+
+body {
+  background-image: url('../images/background/crosses.jpg');
+  color: rgba(250, 250, 250, .75);
+  margin: 1.5em;
+  font-family: 'OldeEnglish', Fallback, sans-serif;
+}
+
+.title {
+  font-family: 'OldeEnglish', Fallback, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.container {
+  margin-top: 1em;
+  width: 2000px;
+}
+
+.form-control {
+  background-color:rgba(255,0,0,0.0);
+  width: 50%;
+  display: inline;
+  border: none;
+  color: rgba(250, 250, 250, .75);
+  font-size: 3em;
+}
+
+button.generateIpsumButton {
+  background-color:rgba(255,0,0,0.0);
+  border: none;
+  color: rgba(250, 250, 250, .75);
+  font-size: 3em;
+  cursor: pointer;
+
+}
+
+.generatedText {
+  font-size: 2em;
+  font-family: serif;
+  height: 18em;
+  overflow: auto;
+}
+
+.container {
+  width: 1500px;
+}
+
+.generatedTextRow {
+  display: none;
+  margin-top: 10%;
+  overflow-y: hidden;
+}
+
+#sel1 {
+  height: 2em;
+  font-size: 3em;
+}
+
+option {
+  font-size: 1em;
+}
