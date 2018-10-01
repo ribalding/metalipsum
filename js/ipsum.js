@@ -171,15 +171,16 @@
     }
 
     $(document).ready(function(){
-      var ps = new PerfectScrollbar('.generatedText');
+
         $('.generateIpsumButton').on('click', function(e) {
             $('.generatedTextRow').fadeOut(function(){
               var paragraphCount = $('#sel2').val();
               var type = $('#sel1').find(':selected').attr('data-type');
               $('.generatedText').text(generateIpsumText(type, paragraphCount));
               $(this).fadeIn();
+              var ps = new PerfectScrollbar('.generatedText');
             });
-            
+
         });
     });
 
