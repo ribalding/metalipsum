@@ -23,7 +23,8 @@
                         'tyrant', 'tide', 'heavy', 'woman', 'stonesphere', 'bong', 'talisman', 'twin', 'hum', 'offering', 'blasphemy', 'satan',
                         'hypno', 'cult', 'soil', 'hunter', 'thunderhoof', 'wrath', 'axe', 'marrow', 'unholy', 'thunder', 'lucifer', 'thorn',
                         'totem', 'golgotha', 'electric', 'funeralopolis', 'coven', 'goat', 'horseback', 'pilgrimage', 'poison', 'oak', 'oaken',
-                        'snow', 'ice', 'ceremony', 'ceremonial', 'riff filled land', 'iommi', 'conquest', 'queen'] ,
+                        'snow', 'ice', 'ceremony', 'ceremonial', 'riff filled land', 'iommi', 'conquest', 'queen', 'trees', 'sacred', 'spiritual',
+                        'cosmic', 'emperor', 'molten', 'aeons', 'reality', 'infinite', 'kingdom'] ,
 
             blackMetal : ['frost', 'winter', 'night', 'ash', 'plagues', 'devoid', 'light', 'pale', 'autumn', 'natus', 'smoke', 'satan',
                         'hell', 'old', 'ancient', 'blood', 'celestial', 'cathedral', 'subterannean', 'initiation', 'imperium',
@@ -35,7 +36,8 @@
                         'hunter', 'marrow', 'effigy', 'shadow', 'hordes', 'tundra', 'obsolete', 'ominous', 'funeral', 'unholy', 'diabolical', 'void',
                         'pagan', 'thorn', 'ritual', 'corruptor', 'coven', 'coffin', 'snow', 'ice', 'ceremony', 'ceremonial', 'hunger', 'transcendental',
                         'norwegian', 'hellfire', 'darkness', 'transilvanian', 'spectral', 'cactaclysm', 'cactaclysmic', 'silence', 'silent', 'requiem',
-                        'entombed', 'immortal', 'frozen', 'ash', 'ashen'],
+                        'entombed', 'immortal', 'frozen', 'ash', 'ashen', 'mortuary', 'travesty', 'trees', 'sacred', 'wraith', 'spiritual', 'imprisoned',
+                        'wolves', 'wolf', 'necro', 'lunar', 'cosmic', 'emperor', 'forgotten', 'aeons', 'suffering', 'infinite', 'chaos'],
 
             deathMetal : ['tomb', 'mold', 'flesh', 'bereavement', 'primordial', 'merciless', 'malignant', 'tumor', 'blood', 'death', 'die',
                         'execration', 'extinction', 'murder', 'hammer', 'bones', 'crypt', 'corpse', 'pain', 'fire', 'carcass', 'eater', 'evisceration',
@@ -45,14 +47,16 @@
                         'gore', 'mutilation', 'rot', 'morbid', 'devourment', 'deceased', 'desecrated', 'abnormal', 'contempt', 'rat', 'prison', 'genocide',
                         'genocidal', 'torment', 'weak', 'excrement', 'errosion', 'disembowlment', 'abdominal', 'coffin', 'ceremony', 'ceremonial', 'corruption',
                         'hunger', 'cunt', 'congealed', 'ghastly', 'putrid', 'stench', 'possessed', 'punishment', 'destruction', 'torture', 'brutal', 'brutality',
-                        'atrocity', 'entombed', 'regurgitated', 'immortal', 'immolation', 'sterilized', 'ash'],
+                        'atrocity', 'entombed', 'regurgitated', 'immortal', 'immolation', 'sterilized', 'ash', 'butcher', 'butchery', 'splatter', 'disfigured',
+                        'mortuary', 'vengeance', 'contaminated', 'abhorrent', 'madness', 'cancer', 'cancerous', 'inhuman', 'necro', 'suffering', 'noose'],
 
             thrashMetal : ['thrash', 'ripper', 'bang', 'bangover', 'evisceration', 'skate', 'pizza', 'kill', 'skull', 'slave', 'conformity', 'hate', 'dead',
                         'tyrant', 'slayer', 'casualty', 'exterminator', 'subhuman', 'heavy', 'zombie', 'insane', 'insanity', 'hyseria', 'pig', 'terminal', 'wild',
                         'revenge', 'cannibal', 'holocaust', 'executioner', 'conform', 'conformicide', 'mutation', 'lightning', 'cage', 'abnormal', 'rat', 'prison',
                         'suicide', 'authority', 'final', 'corruption', 'exodus', 'toxic', 'beer', 'deranged', 'retard', 'chemical', 'chemi-kill', 'defiance',
                         'institutionalized', 'psycho', 'reagan', 'subliminal', 'fascist', 'possessed', 'hazardous', 'hazard', 'headbanger', 'bastard', 'exploit',
-                        'scum', 'shred', 'punishment', 'slime', 'waste', 'death', 'destruction', 'torture', 'enemy', 'skulls', 'sterilized', 'total', 'genocide'],
+                        'scum', 'shred', 'punishment', 'slime', 'waste', 'death', 'destruction', 'torture', 'enemy', 'skulls', 'sterilized', 'total', 'genocide',
+                        'splatter', 'vengeance', 'mutant', 'twisted', 'chaos'],
         },
 
         sharedNouns : ['hell', 'demon', 'night', 'pentagram', 'suicide', 'black', 'satan', 'fuck', 'blood', 'dark', 'death', 'die', 'life',
@@ -62,20 +66,25 @@
                     'vicious', 'predatory', 'shadow', 'vulture', 'unholy', 'diabolical', 'lucifer', 'pitch black', 'bloody', 'gore', 'demon', 'rot',
                     'fatal', 'contempt', 'gordian knot', 'thee', 'thou', 'thy', 'broken', 'final', 'weak', 'hellfire', 'darkness', 'devil', 'testament',
                     'defiance', 'punishment', 'freak', 'monster', 'coil', 'murder', 'diseased', 'wretch', 'enemy', 'brutal', 'brutality', 'below', 'gallows',
-                    'buried alive', 'total'],
+                    'buried alive', 'total', 'gates', 'nightmare', 'nightmares', 'subterannean', 'inhuman', 'suffering', 'chaos'],
 
         sharedTermsAndExpressions : {
             veryCommon: ['the', 'of', 'I am', 'and',  'a', 'an', 'you', 'is', 'we are', 'you are', 'are'],
-            common:['to the', 'of the', 'of a',  'from', 'fucking', 'your', 'my', 'I,'],
-            uncommon:['devoid of', 'circle of', 'bound by', 'ex', 'with', 'against', 'beyond', 'among', 'never', 'sick of', 'without', 'return to', 'army of', 'torn from the', 'chamber of'],
-            rare:['sub', 'born of a', 'wave of', 'house of', 'wrath of', 'eye of the', 'shadow of', 'come my', 'born', 'gathering of', 'on horseback', 'legacy of', 'denial of']
+            common:['to the', 'of the', 'of a',  'from', 'fucking', 'your', 'my', 'never', 'I,'],
+            uncommon:['devoid of', 'circle of', 'bound by', 'ex', 'with', 'against', 'beyond', 'among', 'sick of',
+                      'without', 'return to', 'army of', 'torn from the', 'eye of the', 'chamber of', 'gates of', 'imprison', 'lord of', 'master of'],
+            rare:['sub', 'born of a', 'wave of', 'house of', 'wrath of', 'shadow of', 'come my', 'born', 'gathering of', 'on horseback',
+                  'legacy of', 'denial of', 'by the light of', 'kingdom of']
          },
 
         sharedVerbs : {
-            veryCommon: ['bleed', 'die', 'suffer', 'burn', 'slay', 'scream', 'become', 'hail'],
-            common:[ 'betray', 'bury', 'rip', 'descend', 'hunt', 'mutilate', 'tear', 'devour', 'reap', 'crawl', 'purge', 'rot', 'crush'],
-            uncommon:['roar', 'ascend', 'howl', 'annihilate', 'strangle', 'exterminate', 'boil', 'desecrate', 'reject', 'silence', 'transcend', 'flay', 'shred'],
-            rare:['triumph', 'roam', 'eviscerate', 'gnash', 'penetrate', 'hiss', 'vex', 'wreak', 'dissolve', 'lash', 'shatter', 'force', 'crawl toward', 'wretch', 'immolate']
+            veryCommon: ['bleed', 'die', 'suffer', 'burn', 'slay', 'scream', 'become', 'hail', 'kill'],
+            common:[ 'betray', 'bury', 'rip', 'descend', 'hunt', 'mutilate', 'tear', 'devour', 'reap', 'crawl', 'purge', 'rot', 'crush', 'infest',
+                    'decay'],
+            uncommon:['roar', 'ascend', 'howl', 'annihilate', 'strangle', 'exterminate', 'boil', 'desecrate', 'reject', 'silence', 'transcend',
+                      'flay', 'shred', 'abandon'],
+            rare:['triumph', 'roam', 'eviscerate', 'gnash', 'penetrate', 'hiss', 'vex', 'wreak', 'dissolve', 'lash', 'shatter', 'force',
+                  'crawl toward', 'wretch', 'immolate', 'imprison']
         },
 
         sharedPunctuation : ['.', ',', '?', '!'],
@@ -124,7 +133,7 @@
         if (randomNumberA >= 70){
             newWord = getSharedTerm(randomNumberA);
         } else {
-            if(randomNumberA >= 40){
+            if(randomNumberA >= 45){
                 newWord = getSharedWord('sharedNouns');
             } else {
                 var sg = words.subgenreNouns[subgenre];
