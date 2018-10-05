@@ -24,7 +24,7 @@
                         'hypno', 'cult', 'soil', 'hunter', 'thunderhoof', 'wrath', 'axe', 'marrow', 'unholy', 'thunder', 'lucifer', 'thorn',
                         'totem', 'golgotha', 'electric', 'funeralopolis', 'coven', 'goat', 'horseback', 'pilgrimage', 'poison', 'oak', 'oaken',
                         'snow', 'ice', 'ceremony', 'ceremonial', 'riff filled land', 'iommi', 'conquest', 'queen', 'trees', 'sacred', 'spiritual',
-                        'cosmic', 'emperor', 'molten', 'aeons', 'reality', 'infinite', 'kingdom'] ,
+                        'cosmic', 'emperor', 'molten', 'aeons', 'reality', 'infinite', 'kingdom', 'sword', 'dominant', 'dominance', 'alchemy'] ,
 
             blackMetal : ['frost', 'winter', 'night', 'ash', 'plagues', 'devoid', 'light', 'pale', 'autumn', 'natus', 'smoke', 'satan',
                         'hell', 'old', 'ancient', 'blood', 'celestial', 'cathedral', 'subterannean', 'initiation', 'imperium',
@@ -37,7 +37,8 @@
                         'pagan', 'thorn', 'ritual', 'corruptor', 'coven', 'coffin', 'snow', 'ice', 'ceremony', 'ceremonial', 'hunger', 'transcendental',
                         'norwegian', 'hellfire', 'darkness', 'transilvanian', 'spectral', 'cactaclysm', 'cactaclysmic', 'silence', 'silent', 'requiem',
                         'entombed', 'immortal', 'frozen', 'ash', 'ashen', 'mortuary', 'travesty', 'trees', 'sacred', 'wraith', 'spiritual', 'imprisoned',
-                        'wolves', 'wolf', 'necro', 'lunar', 'cosmic', 'emperor', 'forgotten', 'aeons', 'suffering', 'infinite', 'chaos'],
+                        'wolves', 'wolf', 'necro', 'lunar', 'cosmic', 'emperor', 'forgotten', 'aeons', 'suffering', 'infinite', 'chaos', 'fallow', 'scourge',
+                        'sword'],
 
             deathMetal : ['tomb', 'mold', 'flesh', 'bereavement', 'primordial', 'merciless', 'malignant', 'tumor', 'blood', 'death', 'die',
                         'execration', 'extinction', 'murder', 'hammer', 'bones', 'crypt', 'corpse', 'pain', 'fire', 'carcass', 'eater', 'evisceration',
@@ -180,16 +181,14 @@
     }
 
     $(document).ready(function(){
-
+        var ps = new PerfectScrollbar('.container');
         $('.generateIpsumButton').on('click', function(e) {
             $('.generatedTextRow').fadeOut(function(){
               var paragraphCount = $('#sel2').val();
               var type = $('#sel1').find(':selected').attr('data-type');
               $('.generatedText').text(generateIpsumText(type, paragraphCount));
               $(this).fadeIn();
-              var ps = new PerfectScrollbar('.generatedText');
             });
-
         });
     });
 

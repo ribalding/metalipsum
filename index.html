@@ -24,27 +24,27 @@
 <!--===============================================================================================-->
 </head>
 <body>
-
-<form class="validate-form">
-	<div class="row">
-		<div class="col-m-4 column">
-			<span class="title">Ipsumm O))))))</span>
+<div class="container">
+	<form class="validate-form">
+		<div class="row">
+			<div class="col-m-4 column">
+				<span class="title">Ipsumm O))))))</span>
+			</div>
+			<div class="col-m-4 column">
+				<select class="form-control" id="sel1">
+					<option data-type="deathMetal">Death</option>
+					<option data-type="doomMetal">Doom</option>
+					<option data-type="blackMetal">Black</option>
+					<option data-type="thrashMetal">Thrash</option>
+				</select>
+			</div>
+			<div class="col-m-4 column">
+				<input class="form-control" id="sel2" type="number" min="1" max="10" value="1">
+				<button type="button" class="generateIpsumButton" data-toggle="modal" data-target="#exampleModalLong">Generate</button>
+			</div>
 		</div>
-		<div class="col-m-4 column">
-			<select class="form-control" id="sel1">
-				<option data-type="deathMetal">Death</option>
-				<option data-type="doomMetal">Doom</option>
-				<option data-type="blackMetal">Black</option>
-				<option data-type="thrashMetal">Thrash</option>
-			</select>
-		</div>
-		<div class="col-m-4 column">
-			<input class="form-control" id="sel2" type="number" min="1" max="10" value="1">
-			<button type="button" class="generateIpsumButton" data-toggle="modal" data-target="#exampleModalLong">Generate</button>
-		</div>
-
-	</div>
-</form>
+	</form>
+</div>
 
 <div class="container">
 	<div class="row generatedTextRow">
